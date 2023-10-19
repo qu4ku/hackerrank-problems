@@ -2,7 +2,7 @@
   (:require [clojure.test :refer :all]
             [clojure.string :as str]))
 ;; https://www.hackerrank.com/challenges/save-the-prisoner/
-;; 2023/11
+;; init: 2023/11. solved.
 
 (def input
 "7 19 2
