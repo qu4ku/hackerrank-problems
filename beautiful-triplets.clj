@@ -3,7 +3,7 @@
 
 ;; https://www.hackerrank.com/challenges/beautiful-triplets/problem
 ;; dif: easy
-;; init 2023/10. wip.
+;; init 2023/10. done.
 
 
 ;; a[y] - a[x] = a[z] - a[y] = d
@@ -108,4 +108,3 @@
 
 ;; 16s
 (time (solve4 1 long-input))
-
