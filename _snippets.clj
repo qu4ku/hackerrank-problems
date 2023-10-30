@@ -6,6 +6,16 @@
 
 
 
+;; dotimes instead of doseq (+ distinct)
+(dotimes [_ (read)]
+  (apply println
+         (sort
+          (distinct
+           (let [n (read) a (read) b(read)]
+             (for [ i (range  n)]
+               (+ (* a i) (* b (- n i 1)))))))))
+
+
 ;; reading input
 (defn str->nums [str]
   (->> (str/split str #" ")

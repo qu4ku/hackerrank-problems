@@ -30,3 +30,13 @@
          (filter (fn [e] (some #{(first e)} (second e))))
          count
          println))
+
+(let [n (read)
+      k (read)
+      arr (repeatedly n #(read))]
+    (->> arr
+         (mapcat #(partition-all k (range 1 (inc %))))
+         (map-indexed (fn [i v] [(inc i) v]))
+         (filter (fn [v] (some #{(first v)} (second v))))
+         count
+         prn))
