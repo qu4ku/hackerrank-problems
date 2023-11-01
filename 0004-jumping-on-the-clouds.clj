@@ -3,7 +3,7 @@
 
 ;; https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem?isFullScreen=true
 ;; dif: easy
-;; init 2023/10. wip.
+;; init 2023/10. done.
 
 
 (def input "7

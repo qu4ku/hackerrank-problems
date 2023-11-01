@@ -4,7 +4,7 @@
 
 ;; https://www.hackerrank.com/challenges/magic-square-forming/
 :: dif: medium
-;; init 2023/10. solved.
+;; init 2023/10. done.
 
 (def input "4 9 2
 3 5 7
