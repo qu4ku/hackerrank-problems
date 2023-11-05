@@ -3,7 +3,7 @@
             [clojure.math.combinatorics :as combo]))
 
 ;; https://www.hackerrank.com/challenges/magic-square-forming/
-:: dif: medium
+;; dif: medium
 ;; init 2023/10. done.
 
 (def input "4 9 2
