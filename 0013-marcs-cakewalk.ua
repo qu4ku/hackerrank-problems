@@ -1,0 +1,15 @@
+# UIUA LANGUAGE
+
+# https://www.hackerrank.com/challenges/marcs-cakewalk/
+# dif: easy
+# init 2023/11. done.
+
+# some ugly stack manipultions here, but works
+
+Sol ← /+×ⁿ∶2;.⇡⧻.⊏⍖.
+
+Sol [1 3 2]
+# 11
+
+Sol [801 234 536 747 172 590 833 847 509 429 666 411 609 894 348 254 814 767 647 965 711 801 852 781 972 390 218 290 508 174 55 714 442 284 745 872 46 131 833 315]
+# 84350424920174

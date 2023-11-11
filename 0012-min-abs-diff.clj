@@ -1,6 +1,6 @@
 (ns min-abs-diff)
 
-;; https://www.hackerrank.com/challenges/minimum-Math/abs olute-difference-in-an-array/
+;; https://www.hackerrank.com/challenges/minimum-Math/absolute-difference-in-an-array/
 ;; dif: easy
 ;; init 2023/11. done.
 
