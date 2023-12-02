@@ -1,6 +1,5 @@
 (ns luck-balance)
 
-
 ;; https://www.hackerrank.com/challenges/luck-balance/
 ;; dif: easy
 ;; init 2023/11. done.
