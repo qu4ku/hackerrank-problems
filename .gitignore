@@ -1,6 +1,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/emacs,linux,clojure
 # Edit at https://www.toptal.com/developers/gitignore?templates=emacs,linux,clojure
 
+# custom 
+.clj-kondo/
+.lsp/
+
 ### Clojure ###
 pom.xml
 pom.xml.asc
