@@ -15,3 +15,13 @@
        (map first)))
 
 (solve orders)
+
+
+;; with reading input
+(let [s (for [n (range 0 (read))] [(read) (read)])]
+  (->> s
+       (map-indexed (fn [idx o] [(inc idx) (reduce + o)]))
+       (sort-by second)
+       (map first)
+       (clojure.string/join " ")
+       println))
