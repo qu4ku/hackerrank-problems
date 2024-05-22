@@ -5,7 +5,6 @@
 // init 2024/05. done.
 
 #include <stdio.h>
-#include <math.h>
 #include <stdlib.h>
 
 
